@@ -78,6 +78,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
+replace github.com/openstack-k8s-operators/ovn-operator => github.com/chrisbug/ovn-operator least_privilege
 replace github.com/openstack-k8s-operators/ovn-operator/api => ./api
 
 // mschuppert: map to latest commit from release-4.16 tag
